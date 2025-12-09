@@ -9,6 +9,7 @@
 ### Структура проекта
 - `streaming_service.py` - код Spark Structured Streaming приложения
 
+
 # transaction-metrics
 ### Проектная работа по аналитическим базам данных в рамках ETL-процесса
 - [Ссылка](https://github.com/ioiimm/de_projects/tree/main/transaction-metrics)
