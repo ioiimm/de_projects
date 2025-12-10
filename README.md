@@ -8,6 +8,8 @@
 Проект обеспечивает сбор, обработку и последующую отправку данных в Kafka для push-уведомлений пользователям с подпиской, которая позволяет добавлять рестораны в избранное.
 ### Структура проекта
 - `streaming_service.py` - код Spark Structured Streaming приложения
+### Стек технологий
+- Apache Spark, Apache Kafka, PostgreSQL, Python (PySpark)
 
 # transaction-metrics
 ### Проектная работа по аналитическим базам данных в рамках ETL-процесса
@@ -22,3 +24,5 @@
 Внутри `src` расположены папки:
 - `/src/dags` - код DAG `1_data_import.py`, который поставляет данные из источника в хранилище. Также код DAG `2_datamart_update.py`, который обновляет витрины данных.
 - `/src/sql` - SQL-запрос формирования таблиц в `STAGING`- и `DWH`-слоях, а также скрипт подготовки данных для итоговой витрины.
+### Стек технологий
+- Apache Airflow, PostgreSQL, Vertica, Python (pandas через PostgresHook, logging, pendulum)
